@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* Use standard utilities here or set background directly */
+  @apply text-slate-200 font-body antialiased selection:bg-accent selection:text-white;
+  background-color: #080807; 
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(84, 66, 49, 0.18), transparent 50%),
+    radial-gradient(circle at 90% 20%, rgba(42, 42, 36, 0.25), transparent 40%);
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #080807;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2A24;
+  border-radius: 999px;
+  border: 2px solid #080807;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #544231;
+}
+
+:focus-visible {
+  outline: 2px solid #544231;
+  outline-offset: 3px;
+}
+
+.section-eyebrow {
+  @apply font-mono text-xs tracking-[0.25em] uppercase text-amber-200/60 flex items-center gap-2;
+}
+
+.glass {
+  background: rgba(19, 21, 19, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-card {
+  background: #2A2A24/40;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card:hover {
+  border-color: rgba(84, 66, 49, 0.6);
+  box-shadow: 0 0 25px rgba(84, 66, 49, 0.25);
+}
