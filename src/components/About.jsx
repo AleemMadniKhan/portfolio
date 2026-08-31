@@ -16,31 +16,31 @@ const TIMELINE = [
     title: "Enrolled — BS Software Engineering",
     place: "Sindh Madressatul Islam University (SMIU), Karachi",
     detail:
-      "Started degree coursework covering discrete mathematics, Object Oriented Programming, Database Systems, and core logic design.",
+      "Building a strong foundation in programming, object-oriented programming, databases, and software engineering.",
   },
   {
     icon: BookOpen,
-    year: "Current",
-    title: "Academic Progress & Core Practice",
-    place: "Karachi, Pakistan",
+    year: "2025–2026",
+    title: "Backend & Full-Stack Development",
+    place: "Self-directed Learning",
     detail:
-      "Deepening understanding of relational databases, multivariable calculus, and software construction.",
+      "Developed hands-on experience with Java, Spring Boot, REST APIs, authentication, databases, and React.",
   },
   {
     icon: Code2,
     year: "2026",
-    title: "Backend & Full-Stack Specialization",
-    place: "Self-directed Architecture",
+    title: "Full Stack Developer Intern",
+    place: "Finovo Global",
     detail:
-      "Building API layers with Spring Boot, Spring Security, JWT auth mechanisms, and React user interfaces.",
+      "Working with Node.js, Express.js, PostgreSQL, MongoDB, and React.js while contributing to backend APIs and full-stack development.",
   },
   {
     icon: Rocket,
-    year: "Goal",
-    title: "Industry Placement",
-    place: "Software Engineering Internship",
+    year: "Current",
+    title: "Growing as a Full Stack Developer",
+    place: "Java & JavaScript Ecosystem",
     detail:
-      "Targeting backend engineering roles to contribute clean, maintainable code to real-world applications.",
+      "Continuing to strengthen backend engineering, API development, databases, frontend integration, and software architecture.",
   },
 ];
 
@@ -65,12 +65,13 @@ export default function About() {
             <Sparkles className="w-3.5 h-3.5 text-amber-200/80" />
             <span>about</span>
           </div>
+
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-white tracking-tight">
             Engineering Identity & Academic Journey
           </h2>
         </motion.div>
 
-        {/* Top Cards: Background & Focus */}
+        {/* Top Cards */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -93,11 +94,11 @@ export default function About() {
             },
             {
               icon: Target,
-              title: "Current Focus",
-              subtitle: "Spring Boot · React · MySQL",
-              detail: "Mastering Scalable Microservices & APIs",
+              title: "Tech Focus",
+              subtitle: "Java · Spring Boot · Node.js",
+              detail: "Full Stack Development & Backend Engineering",
             },
-          ].map((card, idx) => (
+          ].map((card) => (
             <motion.div
               key={card.title}
               whileHover={{ y: -6, scale: 1.02 }}
@@ -107,12 +108,15 @@ export default function About() {
               <div className="w-10 h-10 rounded-xl bg-accent/30 border border-amber-200/30 flex items-center justify-center text-amber-200">
                 <card.icon className="w-5 h-5" />
               </div>
+
               <h3 className="font-display font-semibold text-lg text-white">
                 {card.title}
               </h3>
+
               <p className="text-sm text-slate-300 font-medium">
                 {card.subtitle}
               </p>
+
               <p className="text-xs text-slate-500">{card.detail}</p>
             </motion.div>
           ))}
@@ -127,7 +131,8 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="text-xl font-display font-bold text-white mb-8 flex items-center gap-2"
           >
-            <Sparkles className="w-5 h-5 text-amber-200/80" /> Learning Journey
+            <Sparkles className="w-5 h-5 text-amber-200/80" />
+            Learning Journey
           </motion.h3>
 
           <div className="relative border-l border-amber-500/20 ml-4 sm:ml-6 space-y-8">
@@ -154,12 +159,15 @@ export default function About() {
                   <span className="font-mono text-xs text-amber-200/90 font-semibold uppercase tracking-widest bg-amber-500/10 px-2.5 py-1 rounded-md border border-amber-500/20">
                     {item.year}
                   </span>
+
                   <h4 className="font-display font-semibold text-lg text-white mt-3">
                     {item.title}
                   </h4>
+
                   <p className="text-xs text-slate-400 mt-0.5 mb-3">
                     {item.place}
                   </p>
+
                   <p className="text-sm text-slate-300 leading-relaxed">
                     {item.detail}
                   </p>
