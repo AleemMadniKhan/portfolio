@@ -1,14 +1,30 @@
 # 💼 Developer Portfolio
 
-A modern, responsive, and interactive developer portfolio built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**. The website showcases my skills, projects, academic journey, and provides an elegant way for recruiters and clients to contact me.
+A modern, responsive, and interactive developer portfolio built with **React, Vite, Tailwind CSS, and Framer Motion**.
 
-Designed with performance, clean UI, smooth animations, and responsive layouts in mind, this portfolio represents my journey as a **Software Engineering student** specializing in **Java Spring Boot**, **React**, and **Backend Development**.
+This portfolio showcases my **software engineering journey, technical skills, projects, academic background, and professional internship experience**.
+
+The design focuses on clean UI, responsive layouts, smooth animations, and an interactive developer experience.
 
 ---
 
 ## 🌐 Live Demo
 
-**Live Website:** https://portfolio-flax-xi-73.vercel.app/
+**Live Website:**  
+https://portfolio-flax-xi-73.vercel.app/
+
+---
+
+# 👨‍💻 About Me
+
+I am a **Software Engineering student at Sindh Madressatul Islam University (SMIU), Karachi**, with a strong interest in **backend and full-stack web development**.
+
+I work with both **Java/Spring Boot** and **JavaScript/Node.js** ecosystems, building REST APIs, authentication systems, database-driven applications, and modern React interfaces.
+
+I am currently working as a **Full Stack Developer Intern at Finovo Global**, where I am gaining practical experience with real-world application development, backend APIs, databases, authentication, and frontend integration.
+
+My goal is to build **clean, secure, maintainable, and scalable software** while continuously improving through practical projects and professional development.
+
 ---
 
 # ✨ Features
@@ -18,18 +34,19 @@ Designed with performance, clean UI, smooth animations, and responsive layouts i
 - Premium dark theme
 - Glassmorphism design
 - Fully responsive layout
-- Mobile-first approach
+- Mobile-friendly interface
 - Smooth scrolling navigation
+- Developer-focused visual design
 
 ---
 
 ## 🚀 Interactive Hero Section
 
-- Animated profile image
-- Floating effects
 - Interactive developer terminal
 - Animated particle background
-- Social media links
+- Profile presentation
+- Floating UI effects
+- GitHub, LinkedIn, and Email links
 - Call-to-action buttons
 
 ---
@@ -38,306 +55,217 @@ Designed with performance, clean UI, smooth animations, and responsive layouts i
 
 - Professional introduction
 - Education overview
-- Academic timeline
-- Current learning path
-- Career objectives
+- Academic journey
+- Development journey
+- Internship experience
+- Current technical focus
 - Interactive timeline animations
 
 ---
 
-## 🛠 Skills Section
+# 🛠 Technical Skills
 
-Categorized technical skills with animated tabs.
-
-### Backend
+## Backend
 
 - Java
 - Spring Boot
 - Spring Security
 - Spring Data JPA
 - Hibernate
+- Node.js
+- Express.js
 - REST APIs
 - JWT Authentication
 - Refresh Tokens
 - Role-Based Authorization
 - Permission-Based Authorization
-- DTO Mapping
-- Validation
-- Global Exception Handling
+- API Validation
+- Exception Handling
 
-### Frontend
+## Frontend
 
-- React
+- React.js
 - React Router
-- Context API
+- JavaScript
 - Axios
-- Protected Routes
+- Context API
 - Tailwind CSS
+- Responsive UI
 
-### Database
+## Databases
 
 - MySQL
+- PostgreSQL
+- MongoDB
 - SQL
-- Database Design
+- Relational Database Design
+- Database Normalization
 - ER Diagrams
-- Normalization (1NF–BCNF)
+- BCNF Database Design
 
-### Languages
+## Programming Languages
 
 - Java
 - JavaScript
 - SQL
-- HTML5
-- CSS3
 - C
 
-### Tools
+## Development Tools
 
 - Git
 - GitHub
-- Swagger
-- Postman
 - Maven
+- Postman
+- Swagger / OpenAPI
 - IntelliJ IDEA
 - VS Code
 - MySQL Workbench
 
 ---
 
-## 📂 Projects Showcase
+# 📂 Featured Projects
 
-Displays featured projects including:
+## 🎓 University Student Management System
 
-### 🎓 University Student Management System
+A full-stack university management platform designed for **Students, Teachers, and Administrators**.
 
-- Spring Boot Backend
-- React Frontend
+### Key Features
+
 - JWT Authentication
-- Refresh Token Flow
+- Automatic Access Token Refresh
 - Role-Based Authorization
+- Protected Routes
+- Student Management
+- Teacher Management
+- Course Management
+- Section Management
+- Enrollment Management
+- Marks Management
 - GPA Calculation
-- BCNF Database Design
-- Responsive Dashboard
+- Assessment Management
+- BCNF-normalized database design
+- Responsive dashboards
 
-### 🔐 Spring Security JWT Product API
+### Technology
 
-- Secure REST API
-- JWT Authentication
+**Backend**
+
+- Java
+- Spring Boot
 - Spring Security
-- Refresh Tokens
-- Image Upload
-- Password Recovery
-- Role-Based Access Control
+- Spring Data JPA
+- Hibernate
 
-Each project includes:
+**Frontend**
 
-- Description
-- Technology Stack
-- GitHub Repository
-- Live Demo (when available)
-
----
-
-## 📬 Contact Section
-
-Interactive contact form featuring:
-
-- Real-time validation
-- Loading state
-- Success & error notifications
-- Web3Forms integration
-- Email, phone and location
-- GitHub & LinkedIn links
-
----
-
-## ⚡ Smooth Animations
-
-Built using Framer Motion.
-
-Includes:
-
-- Scroll animations
-- Hover effects
-- Page transitions
-- Floating components
-- Interactive cards
-- Animated timeline
-- Toast notifications
-
----
-
-# 🧱 Tech Stack
-
-## Frontend
-
-- React 18
+- React
 - Vite
-- JavaScript (ES6+)
+- Axios
 - Tailwind CSS
 - Framer Motion
 
-## Icons
+**Database**
 
-- Lucide React
+- MySQL
 
-## Form Handling
+**Documentation**
 
-- Web3Forms API
+- Swagger / OpenAPI
 
-## Deployment
+🔗 **GitHub Repository:**  
+https://github.com/AleemMadniKhan/StudentManagmentSystem
 
-- Vercel
-
----
-
-# 📁 Project Structure
-
-```
-portfolio/
-│
-├── public/
-│   ├── profile.png
-│
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── Hero.jsx
-│   │   ├── About.jsx
-│   │   ├── Skills.jsx
-│   │   ├── Projects.jsx
-│   │   ├── Contact.jsx
-│   │   └── Footer.jsx
-│   │
-│   ├── assets/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-│
-├── screenshots/
-├── package.json
-└── README.md
-```
+🌐 **Live Demo:**  
+https://student-managment-system-frontend-eight.vercel.app/
 
 ---
 
-# 🚀 Getting Started
+## 🔐 Spring Security JWT Product API
 
-## Clone the repository
+A backend-focused REST API built to demonstrate secure application development using **Spring Boot and Spring Security**.
 
-```bash
-git clone https://github.com/AleemMadniKhan/portfolio.git
-```
+### Key Features
 
----
+- JWT Authentication
+- Access & Refresh Token Flow
+- Spring Security
+- Role-Based Access Control
+- Password Recovery
+- Email-based password reset
+- Image Upload
+- UUID-based file naming
+- RESTful API architecture
+- Database integration
 
-## Navigate to the project
+### Technology
 
-```bash
-cd portfolio
-```
+- Java
+- Spring Boot
+- Spring Security
+- Spring Data JPA
+- Hibernate
+- MySQL
+- Lombok
+- Swagger
 
----
-
-## Install dependencies
-
-```bash
-npm install
-```
-
----
-
-## Start the development server
-
-```bash
-npm run dev
-```
-
----
-
-## Build for production
-
-```bash
-npm run build
-```
+🔗 **GitHub Repository:**  
+https://github.com/AleemMadniKhan/SpringSecurityJwtProductManagement
 
 ---
 
-## Preview production build
+# 💼 Internship Experience
 
-```bash
-npm run preview
-```
+## Full Stack Developer Intern — Finovo Global
 
----
+**2026 · Remote**
 
-# 📦 Dependencies
+Currently gaining professional experience as a **Full Stack Developer Intern at Finovo Global**.
 
-```json
-React
-Vite
-Tailwind CSS
-Framer Motion
-Lucide React
+My internship experience includes working with:
 
----
+- Backend API development
+- Full-stack application development
+- Database integration
+- Authentication and authorization
+- Frontend and backend integration
+- RESTful services
+- Git-based development workflow
+- Collaborative software development
 
-# 🎯 Purpose
-
-This portfolio was created to:
-
-- Showcase my software engineering projects
-- Highlight backend development skills
-- Present technical expertise
-- Demonstrate frontend design capabilities
-- Provide recruiters with an easy way to contact me
+This experience is helping me apply software engineering concepts in a **real-world development environment**.
 
 ---
 
-# 📈 Future Improvements
+# 🎓 Education
 
-- Blog section
-- Project filtering
-- Light/Dark theme toggle
-- Multi-language support
-- Resume download
-- GitHub contribution graph
-- Project search
-- More interactive animations
+## BS Software Engineering
 
----
-
-# 👨‍💻 Author
-
-**Muhammad Aleem Madni Khan**
-
-Software Engineering Student
-
-Sindh Madressatul Islam University (SMIU)
-
+**Sindh Madressatul Islam University (SMIU)**  
 Karachi, Pakistan
 
----
+**2025 – Present**
 
-## 📫 Contact
+Building a strong foundation in:
 
-**Email**
-
-aleem90909m@gmail.com
-
-**GitHub**
-
-https://github.com/AleemMadniKhan
-
-**LinkedIn**
-
-https://linkedin.com/in/aleemmadnikhan
+- Object-Oriented Programming
+- Database Systems
+- Data Structures
+- Software Engineering
+- Computer Science fundamentals
+- Mathematics and logical problem solving
 
 ---
 
-# ⭐ If you like this project
+# ⚡ Interactive Developer Terminal
 
-If you found this portfolio helpful or inspiring, consider giving the repository a **⭐ Star** on GitHub.
+The portfolio includes an interactive terminal that provides quick information about my development profile.
 
-It helps support my work and motivates me to continue building high-quality software projects.
-```
+Available commands:
+
+```bash
+help
+whoami
+skills
+focus
+contact
+clear
